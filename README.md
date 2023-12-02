@@ -1,4 +1,4 @@
-# Parkinson-Disease-Classification
+# Parkinson-Disease-Classification-A-Report
 # Report on
 
 ## Parkinson’s Disease Classification
