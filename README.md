@@ -13,8 +13,6 @@ Our experimentation with diverse CNN models yields promising results, surpassing
 
 In conclusion, this study establishes the efficacy of state-of-the-art CNN models for Parkinson's disease classification, introducing architectures that outperform conventional methods. The proposed stacked model demonstrates the potential of leveraging diverse CNN structures for superior diagnostic accuracy. These findings hold significant implications for advancing automated diagnostic tools in neurodegenerative diseases, paving the way for more accurate and reliable early-stage detection of Parkinson's disease.
 
-Table of Contents
-
 
 I. Introduction
 
@@ -272,4 +270,4 @@ VIII. References
 1) <a name="_page21_x72.00_y98.45"></a><https://www.frontiersin.org/articles/10.3389/frai.2023.1084001/full>
 1) <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6339026/>
 1) <https://www.mdpi.com/2073-431X/12/3/58>
-18
+
