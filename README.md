@@ -1,9 +1,9 @@
 # Parkinson-Disease-Classification
-Report on
+# Report on
 
-Parkinson’s Disease Classification
+## Parkinson’s Disease Classification
 
-Abstract
+### Abstract
 
 This research addresses Parkinson's disease classification using innovative convolutional neural network (CNN) models. Our primary objectives involve evaluating advanced CNN architectures for discerning patterns in speech data related to Parkinson's disease and proposing a stacked model to enhance classification performance.
 
@@ -14,7 +14,7 @@ Our experimentation with diverse CNN models yields promising results, surpassing
 In conclusion, this study establishes the efficacy of state-of-the-art CNN models for Parkinson's disease classification, introducing architectures that outperform conventional methods. The proposed stacked model demonstrates the potential of leveraging diverse CNN structures for superior diagnostic accuracy. These findings hold significant implications for advancing automated diagnostic tools in neurodegenerative diseases, paving the way for more accurate and reliable early-stage detection of Parkinson's disease.
 
 
-I. Introduction
+### I. Introduction
 
 A.Background Information on Speech Processing
 
@@ -50,7 +50,7 @@ D. Overview of Methodologies used
 
    Stacking, short for "stacked generalization," is an ensemble machine learning technique that combines multiple models to improve prediction accuracy. The key idea in stacking is to use a new model, known as the meta-model or blender, to learn how to best integrate the predictions of several base models.
 
-2. Literature Review
+### 2. Literature Review
 
 
 
@@ -68,19 +68,19 @@ D. Overview of Methodologies used
 
 Table 1
 
-A. Limitations
+### A. Limitations
 
 A notable limitation observed in the landscape of previous research on Parkinson's disease detection is the absence of Convolutional Neural Network (CNN) utilization for achieving accurate results. Surprisingly, despite the proven success of CNNs, none of the preceding works in this domain have harnessed the power of CNN models for Parkinson's disease detection. This significant gap in the literature underscores a missed opportunity to leverage the advanced capabilities of CNNs, particularly in extracting intricate patterns and features from medical data. The lack of CNN utilization in prior studies potentially restricts the ability to attain optimal accuracy levels and exploit the full potential of modern machine learning techniques. Therefore, our project seeks to address this limitation by pioneering the application of innovative CNN architectures, breaking new ground in Parkinson's disease classification, and offering a novel perspective on the utilization of deep learning models in this critical healthcare domain.
 
-3. Methodology
+### 3. Methodology
 
-*A.Data Set*
+### *A.Data Set*
 
 The data used in this study were gathered from 188 patients with PD (107 men and 81 women) with ages ranging from 33 to 87 (65.1Â±10.9) at the Department of Neurology in CerrahpaÅŸa Faculty of Medicine, Istanbul University. The control group consists of 64 healthy individuals (23 men and 41 women) with ages varying between 41 and 82 (61.1Â±8.9). During the data collection process, the microphone is set to 44.1 KHz, and following the physician's examination, the sustained phonation of the vowel /a/ was collected from each subject with three repetitions.
 
 Various speech signal processing algorithms, including time frequency features, mel frequency cepstral coefficients (MFCCs), wavelet Transform based features, vocal fold features, and TWQT features, have been applied to the speech recordings of Parkinson's disease (PD) patients to extract clinically useful information for PD assessment.
 
-*B.Algorithms Used*
+### *B.Algorithms Used*
 
 1) *CNN*
 
@@ -115,7 +115,7 @@ Stacking, short for "stacked generalization," is an ensemble machine learning te
 
 In stacking, the initial level (or base level) consists of a variety of models that are trained on the full training dataset. These models can be diverse and include different types of machine learning algorithms. Each of these base models then makes predictions, but instead of using these predictions directly for the final output, they are used as input features for the next level.
 
-4. Implementation
+### 4. Implementation
 
 ![](Aspose.Words.fd52a4f5-3810-4d13-9b1b-64a1cda984d1.002.jpeg)
 
@@ -246,7 +246,7 @@ Fig. 23
 
 Fig.. 24
 
-6. Discussion
+### 6. Discussion
 
 In pursuit of advancing Parkinson's disease classification, our project set out with two primary objectives. Firstly, we aimed to investigate and implement innovative Convolutional Neural Network (CNN) architectures, surpassing existing models by incorporating cutting-edge approaches to enhance accuracy. The goal was to push the boundaries of traditional methodologies and leverage the advanced capabilities of CNNs for improved disease classification.
 
@@ -254,7 +254,7 @@ Secondly, we sought to develop and implement a stacked model, strategically comb
 
 The successful implementation of these advanced methodologies not only validates our initial objectives but also underscores the potential of pushing the boundaries of machine learning techniques to enhance the accuracy of Parkinson's disease classification.
 
-7. Conclusion
+### 7. Conclusion
 
 Throughout this project, which focused on classifying Parkinson's Disease (PD) using speech data, we've uncovered several key insights. Most notably, these include the effectiveness of Convolutional Neural Networks (CNNs) in this context and the remarkable impact of using various meta-models in model stacking.
 
@@ -264,7 +264,7 @@ The application of model stacking techniques further enhanced our predictive acc
 
 To sum up, this project has done more than just affirm the flexibility and strength of neural networks like CNNs and ANNs across various fields. It has shone a light on the vast potential of ensemble methods, particularly stacking with meta-models, in boosting classification accuracy. These findings open up exciting new possibilities for the application of CNNs beyond their standard roles and highlight the value of ensemble strategies in achieving greater accuracy in medical diagnostics. The success with logistic regression and SVM meta-models, especially, paves the way for future exploration and application in medical data analysis and related areas.
 
-VIII. References
+### VIII. References
 
 1) <https://www.mdpi.com/2075-4418/12/12/3000>
 1) <a name="_page21_x72.00_y98.45"></a><https://www.frontiersin.org/articles/10.3389/frai.2023.1084001/full>
